@@ -1,0 +1,10 @@
+{{ define "main" }}
+
+<h1>Larq Blog</h1>
+
+{{ range (where .Site.RegularPages.ByTitle "Section" "blog") }}
+<h3><a href="{{ .Params.link }}">{{ .Title }}</a></h3>
+{{ .Content }}
+{{ end }}
+
+{{ end}}
