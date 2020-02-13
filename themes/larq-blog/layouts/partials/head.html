@@ -11,13 +11,13 @@
     <meta property="og:title" content="{{ .Site.Title }}">
     <meta property="twitter:title" content="{{ .Site.Title }}">
 
-    {{ $description := "News and updates about Larq, an open-source deep learning library for binarized neural networks.x"}}
+    {{ $description := "News and updates about Larq, an open-source deep learning library for binarized neural networks."}}
     <meta name="description" content="{{ $description }}">
     <meta property="og:description" content="{{ $description }}">
     <meta property="twitter:description" content="{{ $description }}">
 
-    <meta property="og:image" content="/images/larq-hero.jpg">
-    <meta property="twitter:image" content="/images/larq-hero.jpg">
+    <meta property="og:image" content="{{ .Site.BaseURL}}images/larq-hero.jpg">
+    <meta property="twitter:image" content="{{ .Site.BaseURL }}images/larq-hero.jpg">
 
     <!-- Individual blog posts -->
     {{ else }}
