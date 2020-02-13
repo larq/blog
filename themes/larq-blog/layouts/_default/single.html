@@ -1,6 +1,7 @@
 {{ define "main" }}
 
 <div class="centered-column content">
+    <img src="{{ .Params.heroImage }}" class="hero" />
     <h1><a href="{{ .Permalink }}">{{ .Title }}</a></h1>
     <h2>{{ .Params.subTitle }}</h2>
     {{ .Content }}

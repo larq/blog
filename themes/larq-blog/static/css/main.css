@@ -67,6 +67,14 @@ strong {
     margin-bottom: 4rem;
 }
 
+.content img {
+    width: 100%;
+}
+
+.content img.hero {
+    margin-bottom: 2rem;
+}
+
 .content h1>a {
     font-size: 1.6rem;
     font-weight: 700;

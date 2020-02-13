@@ -6,5 +6,6 @@ date: {{ .Date }}
 draft: true
 socialTitle: "{{ replace .Name "-" " " | title }}"
 socialDescription: ""
+socialImage: ""
 ---
 

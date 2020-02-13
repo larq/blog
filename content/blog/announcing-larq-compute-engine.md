@@ -1,11 +1,12 @@
 ---
 title: "Announcing Larq Compute Engine v0.1"
 subtitle: "Optimized BNN inference for edge devices"
-heroImage: ""
+heroImage: "/images/lce-announcement-hero.png"
 date: 2020-02-12T13:00:00+01:00
 draft: true
-socialTitle: "Announcing Larq Compute Engine v0.1: Optimized BNN inference for edge devices"
-socialDescription: ""
+socialTitle: "Announcing Larq Compute Engine v0.1"
+socialDescription: "Larq Compute Engine is a highly optimized inference engine for binarized neural networks."
+socialImage: "/images/lce-announcement-hero.png"
 ---
 
 At [Plumerai](https://plumerai.com), we're working every day to make deep learning faster and more energy-efficient.

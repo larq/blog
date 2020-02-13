@@ -1,4 +1,4 @@
 baseURL = "https://larq-blog.now.sh/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Larq Blog"
 theme = "larq-blog"
