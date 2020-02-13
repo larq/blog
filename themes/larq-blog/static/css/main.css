@@ -1,8 +1,9 @@
 :root {
     --color-black: #333;
     --color-gray-light: #f2f6f7;
-    --color-larq-blue: #0B152E;
-    --color-larq-green: #6AEF80;
+    --color-gray-medium: #a2a4a6;
+    --color-larq-blue: #0A1D3C;
+    --color-larq-green: #7DFB9A;
 }
 
 body {
@@ -16,19 +17,9 @@ h1, h2 {
     margin: 0;
 }
 
-h1 {
-    font-size: 1.5rem;
-    font-weight: 700;
-}
-
-h2 {
-    font-size: 1.2rem;
-    font-weight: 500;
-}
-
-p {
-    font-size: 1em;
-    line-height: 1.35rem;
+a {
+    color: var(--color-larq-blue);
+    text-decoration: none;
 }
 
 strong {
@@ -52,21 +43,59 @@ strong {
 }
 
 .header>div>a>img {
-    height: 3rem;
+    height: 3.5rem;
 }
 
-.header>div>h1 {
+.header h1 {
     margin: 0;
     padding-left: 1rem;
-    padding-bottom: 0.51rem;
+    padding-bottom: 0.4rem;
+}
+
+.header h1>a {
     font-size: 1.9rem;
-    font-weight: 300;
-    color: var(--color-larq-blue);
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.header a {
+    border-bottom: none;
 }
 
 .content {
     margin-top: 2rem;
-    margin-bottom: 2rem;
+    margin-bottom: 4rem;
+}
+
+.content h1>a {
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+
+.content h2 {
+    color: var(--color-gray-medium);
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.content p {
+    line-height: 1.4rem;
+}
+
+.content a {
+    font-weight: 400;
+    border-bottom: 0.1em solid var(--color-larq-green);
+    display: inline-block;
+    line-height: 0.9em;
+    text-shadow: 0.1em 0.1em white, 0.1em -0.1em white, -0.1em 0.1em white, -0.1em -0.1em white;
+}
+
+.content a:hover {
+    border-bottom: 0.1em solid var(--color-larq-blue);
+}
+
+.content a:visited {
+    color: var(--color-larq-blue);
 }
 
 @media screen and (max-width: 30rem) {

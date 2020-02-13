@@ -21,7 +21,7 @@ But the ultimate goal of BNNs is to solve real-world problems on edge devices.
 So once you've built and trained a BNN with Larq, how do you get it ready for efficient inference?
 
 **Today, we're releasing Larq Compute Engine (LCE), an open-source inference library for deploying binarized neural networks.**
-LCE is built on top of [TensorFlow Lite](https://www.tensorflow.org/lite/) and can convert Larq models into FlatBuffer files compatible with the TF Lite runtime.
+LCE is built on top of TensorFlow Lite and can convert Larq models into FlatBuffer files compatible with the TF Lite runtime.
 It currently supports ARM64-based mobile platforms such as Android phones and the Raspberry Pi, and it achieves high performance in on-device inference by using hand-optimized binary convolution kernels and network level optimizations for BNN models.
 See the [LCE docs](TODO) for more details on these optimizations.
 
