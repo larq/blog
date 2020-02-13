@@ -1,10 +1,17 @@
 {{ define "main" }}
 
-<h1>Larq Blog</h1>
+<div class="header">
+    <div class="centered-column">
+        <a href="https://larq.dev"><img src="/images/larq-logo.svg" /></a>
+        <h1>Engineering Blog</h1>
+    </div>
+</div>
 
-{{ range (where .Site.RegularPages.ByTitle "Section" "blog") }}
-<h2><a href="{{ .Params.link }}">{{ .Title }}</a></h2>
-{{ .Content }}
-{{ end }}
+<div class="centered-column">
+    {{ range (where .Site.RegularPages.ByTitle "Section" "blog") }}
+    <h2><a href="{{ .Params.link }}">{{ .Title }}</a></h2>
+    {{ .Content }}
+    {{ end }}
+</div>
 
 {{ end}}

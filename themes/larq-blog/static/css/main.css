@@ -1,5 +1,6 @@
 :root {
     --color-black: #333;
+    --color-gray-light: #f2f6f7;
     --color-larq-blue: #0B152E;
     --color-larq-green: #6AEF80;
 }
@@ -13,4 +14,51 @@ body {
 
 h1, h2 {
     font-weight: 700;
+}
+
+p {
+    font-size: 1em;
+}
+
+.centered-column {
+    max-width: 40rem;
+    padding: 0 1rem;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: var(--color-gray-light);
+    padding: 3rem 0;
+}
+
+.header>div {
+    display: flex;
+    align-items: center;
+}
+
+.header>div>a>img {
+    height: 3rem;
+}
+
+.header>div>h1 {
+    margin: 0;
+    padding-left: 1rem;
+    padding-bottom: 0.51rem;
+    font-size: 1.9rem;
+    font-weight: 300;
+    color: var(--color-larq-blue);
+}
+
+@media screen and (max-width: 30rem) {
+    .header {
+        padding: 2rem 0;
+    }
+    .header>div>a>img {
+        height: 2.2rem;
+    }
+    .header>div>h1 {
+        padding-left: 0.6rem;
+        font-size: 1.3rem;
+        padding-bottom: 0.4rem;
+    }
 }
