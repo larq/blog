@@ -7,11 +7,12 @@
     </div>
 </div>
 
-<div class="centered-column">
-    {{ range (where .Site.RegularPages.ByTitle "Section" "blog") }}
-    <h2><a href="{{ .Params.link }}">{{ .Title }}</a></h2>
+{{ range (where .Site.RegularPages.ByTitle "Section" "blog") }}
+<div class="centered-column content">
+    <h1><a href="{{ .Params.link }}">{{ .Title }}</a></h1>
+    <h2>{{ .Params.subTitle }}</h2>
     {{ .Content }}
-    {{ end }}
 </div>
+{{ end }}
 
 {{ end}}
