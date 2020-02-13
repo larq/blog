@@ -2,3 +2,6 @@ baseURL = "https://larq-blog.now.sh/"
 languageCode = "en-us"
 title = "Larq Blog"
 theme = "larq-blog"
+
+[permalinks]
+  blog = ":year/:month/:filename/"
