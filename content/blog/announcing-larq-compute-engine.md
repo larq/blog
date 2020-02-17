@@ -6,7 +6,7 @@ date: 2020-02-12T13:00:00+01:00
 draft: false
 socialTitle: "Announcing Larq Compute Engine v0.1"
 socialDescription: "Larq Compute Engine is a highly optimized inference engine for binarized neural networks."
-socialImage: "/images/lce-announcement-hero.png"
+socialImage: "images/lce-announcement-hero.png"
 ---
 
 At [Plumerai](https://plumerai.com), we're making deep learning radically more efficient.
