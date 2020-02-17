@@ -13,8 +13,8 @@ At [Plumerai](https://plumerai.com), we're making deep learning radically more e
 We're doing this primarily by developing software, algorithms, and hardware for binarized neural networks (BNNs): deep learning models in which the activations and weights are encoded not using 32, 16 or 8 bits, but using only 1 bit.
 This drastically speeds up inference time and lowers energy usage, which makes BNNs a great fit for mobile and edge devices.
 
-The accelerating progress of BNN capabilities and the growth of the surrounding research community have been very exciting to see.
-We believe BNNs are the future of efficient inference, which is why we've developed several tools to make it easier to train and research these models.
+The accelerating progress of BNN performance and the growth of the surrounding research community have been very exciting to see.
+We believe BNNs are the future of efficient inference, which is why we've developed tools to make it easier to train and research these models.
 Our open-source library [Larq](https://larq.dev) enables developers to build and train BNNs and integrates seamlessly with TensorFlow Keras.
 [Larq Zoo](https://github.com/larq/zoo) provides implementations of major BNNs from the literature together with pretrained weights for state-of-the-art models.
 
