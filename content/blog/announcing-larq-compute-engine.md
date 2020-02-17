@@ -10,13 +10,13 @@ socialImage: "/images/lce-announcement-hero.png"
 ---
 
 At [Plumerai](https://plumerai.com), we're making deep learning radically more efficient.
-We're doing this primarily by developing software, algorithms, and hardware for binarized neural networks (BNNs): deep learning models in which the activations and weights are not encoded using 32 or 8 bits, but only 1 bit.
+We're doing this primarily by developing software, algorithms, and hardware for binarized neural networks (BNNs): deep learning models in which the activations and weights are encoded not using 32, 16 or 8 bits, but using only 1 bit.
 This drastically speeds up inference time and lowers energy usage, which makes BNNs a great fit for mobile and edge devices.
 
-The accelerating progress on the capabilities of BNNs and the growth of the research community have been very exciting.
-We believe BNNs are the way to go and this is why we have developed tools to make training and researching these models much easier.
+The accelerating progress of BNN capabilities and the growth of the surrounding research community have been very exciting to see.
+We believe BNNs are the future of efficient inference, which is why we've developed several tools to make it easier to train and research these models.
 Our open-source library [Larq](https://larq.dev) enables developers to build and train BNNs and integrates seamlessly with TensorFlow Keras.
-[Larq Zoo](https://github.com/larq/zoo) provides implementations of the major BNNs from the literature together with pretrained weights for state-of-the-art models.
+[Larq Zoo](https://github.com/larq/zoo) provides implementations of major BNNs from the literature together with pretrained weights for state-of-the-art models.
 
 But the ultimate goal of BNNs is to solve real-world problems on the edge.
 So once you've built and trained a BNN with Larq, how do you get it ready for efficient inference?
@@ -28,7 +28,7 @@ See the [LCE docs](TODO) for more details on these optimizations.
 
 LCE is the world's fastest BNN inference library, significantly outperforming JD.com's [dabnn library](https://github.com/JDAI-CV/dabnn).
 On a Pixel 1 phone, LCE achieves both a higher ImageNet top-1 accuracy (58.3% vs. 56.4%) and a faster inference time (27.9ms vs 43.2ms); see the [LCE docs](TODO) for more benchmarks.
-The integration between Larq and LCE makes for a smooth deployment process across different hardware targets.
+The tight integration between Larq and LCE makes for a smooth deployment process across different hardware targets.
 
 **With the addition of LCE, Larq is now the first complete solution capable of building, training, and efficiently deploying binarized neural networks.**
 Internally at Plumerai, LCE has already enabled researchers and engineers with no previous deployment experience to independently benchmark their BNNs on real hardware — and now that we've open-sourced it, we're excited to see what other developers will be able to do with LCE!
