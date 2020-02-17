@@ -35,4 +35,5 @@ Internally at Plumerai, LCE has already enabled researchers and engineers with n
 
 This is just the beginning for efficient BNN deployment.
 We've got lots more in the pipeline for Larq Compute Engine, including faster and more accurate BNNs and support for new hardware platforms such as microcontrollers.
+You can get started deploying your BNNs today by following our [deployment guide](TODO) for Android and Raspberry Pi. 
 To stay up to date with Larq and LCE, you can star [larq/larq](https://github.com/larq/larq) and [larq/compute-engine](https://github.com/larq/compute-engine) on GitHub or follow [@PlumeraiHQ](https://twitter.com/plumeraihq) on Twitter.
