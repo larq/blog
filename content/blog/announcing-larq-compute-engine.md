@@ -27,7 +27,7 @@ It currently supports ARM64-based mobile platforms such as [Android phones](http
 See the [LCE docs](https://docs.larq.dev/compute-engine/) for more details on these optimizations.
 
 LCE is the world's fastest BNN inference library, significantly outperforming JD.com's [dabnn library](https://github.com/JDAI-CV/dabnn).
-On a Pixel 1 phone, LCE achieves both a higher ImageNet top-1 accuracy (58.3% vs. 56.4%) and a faster inference time (27.9ms vs 43.2ms); see the [LCE docs](https://docs.larq.dev/compute-engine/) for more benchmarks.
+On a Pixel 1 phone, LCE achieves both a higher ImageNet top-1 accuracy (58.3% vs. 56.4%) and a faster inference time (22.1ms vs 43.2ms); see the [LCE docs](https://docs.larq.dev/compute-engine/) for more benchmarks.
 The tight integration between Larq and LCE makes for a smooth deployment process across different hardware targets.
 
 **With the addition of LCE, Larq is now the first complete solution capable of building, training, and efficiently deploying binarized neural networks.**
