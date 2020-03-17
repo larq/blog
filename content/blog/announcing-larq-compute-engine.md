@@ -2,7 +2,7 @@
 title: "Announcing Larq Compute Engine v0.1"
 subtitle: "Optimized BNN inference for edge devices"
 heroImage: "/images/lce-announcement-hero.png"
-date: 2020-02-12T13:00:00+01:00
+date: 2020-02-17T13:00:00+01:00
 draft: false
 socialTitle: "Announcing Larq Compute Engine v0.1"
 socialDescription: "Larq Compute Engine is a highly optimized inference engine for binarized neural networks."
