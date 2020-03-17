@@ -4,7 +4,7 @@
     <img src="{{ .Params.heroImage }}" class="hero" />
     <h1><a href="{{ .Permalink }}">{{ .Title }}</a></h1>
     <h2>{{ .Params.subTitle }}</h2>
-    <p class="date">{{ .Params.date.Format "Monday, January 2, 2006" }}</p>
+    <p class="date">{{ dateFormat "Monday, January 2, 2006" .Params.date }}</p>
     {{ .Content }}
 </div>
 
