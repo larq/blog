@@ -1,6 +1,6 @@
 {{ define "main" }}
 
-{{ range (where .Site.RegularPages.ByTitle "Section" "blog") }}
+{{ range (where .Site.RegularPages.ByTitle "Section" "blog").ByDate.Reverse }}
 <div class="centered-column content">
     <h1><a href="{{ .Permalink }}">{{ .Title }}</a></h1>
     <h2>{{ .Params.subTitle }}</h2>
