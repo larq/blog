@@ -41,5 +41,5 @@ We not only [enabled this in LCE](https://github.com/larq/compute-engine/pull/25
 All you need to do to get these improvements is update your pip packages.
 
 We are continuously creating even better, faster models and expanding the Larq ecosystem to new hardware platforms and deep learning applications.
-You can stay up to date by starring [larq/larq](https://github.com/larq/larq), [larq/zoo](https://github.com/larq/zoo) and [larq/compute-engine](https://github.com/larq/compute-engine) on GitHub, and by following [@PlumeraiHQ](https://twitter.com/plumeraihq) on Twitter.
+You can stay up to date by starring [larq/larq](https://github.com/larq/larq), [larq/zoo](https://github.com/larq/zoo) and [larq/compute-engine](https://github.com/larq/compute-engine) on GitHub, and by following [@plumerai](https://twitter.com/plumerai) on Twitter.
 Make sure to reach out to [hello@plumerai.com](mailto:hello@plumerai.com) if you want to explore how BNNs can enable your efficient deep learning application.
